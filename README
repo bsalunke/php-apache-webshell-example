@@ -1,5 +1,5 @@
 
-<h2>Build</h2>
+Build
 docker build . -t php-apache-webshell-container-image
 
 ## Run
