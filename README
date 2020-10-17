@@ -1,13 +1,13 @@
 
-*Build*
+## Build
 docker build . -t php-apache-webshell-container-image
 
-Run
+## Run
 docker run -d -p <host port>:<web app running port> php-apache-webshell-container-image
 
 e.g.
 docker run -d -p 5000:80 php-apache-webshell-container-image
 
 
-Access web application: 
+## Access web app: 
 http://localhost:5000 
